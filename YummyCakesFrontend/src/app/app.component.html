@@ -1,0 +1,23 @@
+<div class="bg1">
+<nav class="navbar navbar-expand-sm ">
+    <ul class = "navbar-nav">
+        <li class = "nav-item">
+            <a routerLink="cake" routerLinkActive="active" class="nav-link" >Yummy Cakes</a>
+        </li>
+        <li class = "nav-item1">
+            <a routerLink="create-cake" routerLinkActive="active" class="nav-link" >Add Cake </a>
+        </li>
+    </ul>
+</nav>
+<div class="body">
+<h1 class="text-center"> {{title}} </h1>
+<div class = "container">
+    <router-outlet></router-outlet>
+</div>
+</div>
+<footer class = "footer">
+    <div class = "container">
+        <span>2023 @Yummy Cakes</span>
+    </div>
+</footer>
+</div>

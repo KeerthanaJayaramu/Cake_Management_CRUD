@@ -1,0 +1,34 @@
+<div class="creating_cake"><div class="col-6 offset-md-1">
+    <h3> Create Cake </h3>
+    <form (ngSubmit) = "onSubmit()">
+    
+        <div class="form-group">
+            <label> Cake Name</label>
+            <input type="text" class ="form-control" id = "cakeName"
+                [(ngModel)] = "cake.cakeName" name = "cakeName">
+        </div>
+    
+        <div class="form-group">
+            <label> Quantity</label>
+            <input type="text" class ="form-control" id = "quantity"
+                [(ngModel)] = "cake.quantity" name = "quantity">
+        </div>
+    
+      
+        <div class="form-group">
+            <label> Weight per kg</label>
+            <input type="text" class ="form-control" id = "emailId"
+                [(ngModel)] = "cake.weight" name = "weight">
+        </div>
+
+        <div class="form-group">
+            <label> Price per kg</label>
+            <input type="text" class ="form-control" id = "price"
+                [(ngModel)] = "cake.price" name = "price">
+        </div>
+    
+        <button class = "btn btn-success" type ="submit">Submit</button>
+    
+    </form>
+    </div> 
+</div>
